@@ -1,0 +1,46 @@
+::selection {
+  background-color: #FFC815;
+  color: #fff;
+}
+::-moz-selection {
+  background-color: #FFC815;
+  color: #fff;
+}
+
+.theme-color {
+  color: #FFC815;
+}
+
+.home-banner .social-icons a:hover,
+.btn-theme, 
+.theme-after:after,
+.theme-bg {
+background: linear-gradient(219deg, #c9a9d6, #38c799, #b44a46, #f8d736, #9e1eb6);
+background-size: 1000% 1000%;
+
+-webkit-animation: Background-img 15s ease infinite;
+-moz-animation: Background-img 15s ease infinite;
+-o-animation: Background-img 15s ease infinite;
+animation: Background-img 15s ease infinite;
+}
+
+@-webkit-keyframes Background-img {
+    0%{background-position:61% 0%}
+    50%{background-position:40% 100%}
+    100%{background-position:61% 0%}
+}
+@-moz-keyframes Background-img {
+    0%{background-position:61% 0%}
+    50%{background-position:40% 100%}
+    100%{background-position:61% 0%}
+}
+@-o-keyframes Background-img {
+    0%{background-position:61% 0%}
+    50%{background-position:40% 100%}
+    100%{background-position:61% 0%}
+}
+@keyframes Background-img { 
+    0%{background-position:61% 0%}
+    50%{background-position:40% 100%}
+    100%{background-position:61% 0%}
+}
